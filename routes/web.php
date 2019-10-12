@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/create', "TestController@create");
+Route::get('/select', "TestController@select");
